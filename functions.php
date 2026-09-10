@@ -3,7 +3,7 @@
 /**
  * Add menu support
  */
-if (function_exists('add_theme_support')) {
+if ( function_exists( 'add_theme_support' ) ) {
 	add_theme_support( 'menus' );
 	add_theme_support( 'title-tag' );
 	add_theme_support( 'post-thumbnails' );
@@ -12,12 +12,11 @@ if (function_exists('add_theme_support')) {
 /**
  * Add Gutenberg support
  */
-function simple_theme_setup(){
-	// Enqueuing the editor style
+function simple_theme_setup() {
 	add_theme_support( 'editor-styles' );
 	add_editor_style( 'editor.css' );
 }
-add_action('after_setup_theme', 'simple_theme_setup');
+add_action( 'after_setup_theme', 'simple_theme_setup' );
 
 /**
  * Register Scripts and Style
