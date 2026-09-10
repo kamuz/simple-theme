@@ -27,3 +27,12 @@ function theme_register_scripts() {
 	wp_enqueue_script( 'simple-js', get_template_directory_uri() . '/assets/js/main.js', array( 'jquery' ), '1.0', true );
 }
 add_action( 'wp_enqueue_scripts', 'theme_register_scripts', 1 );
+
+/**
+ * Debug function
+ */
+function dd( $arr ) {
+	echo '<pre>';
+	print_r( $arr );
+	echo '</pre>';
+}
