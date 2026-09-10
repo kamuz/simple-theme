@@ -33,3 +33,14 @@ a {
 .container img {
 	max-width: 100%;
 }
+
+.page-numbers {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.page-numbers li {
+	display: inline-block;
+}
