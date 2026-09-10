@@ -1,8 +1,10 @@
 <?php
-
 /**
  * Add menu support
+ *
+ * @package Simple_Theme
  */
+
 if ( function_exists( 'add_theme_support' ) ) {
 	add_theme_support( 'menus' );
 	add_theme_support( 'title-tag' );
@@ -29,6 +31,8 @@ add_action( 'wp_enqueue_scripts', 'theme_register_scripts', 1 );
 
 /**
  * Debug function
+ *
+ * @param mixed $arr Data to debug.
  */
 function dd( $arr ) {
 	echo '<pre>';
