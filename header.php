@@ -1,3 +1,12 @@
+<?php
+/**
+ * Header template
+ *
+ * @package simple-theme
+ */
+
+?>
+
 <!DOCTYPE html>
 <head>
 	<meta charset="utf-8">
