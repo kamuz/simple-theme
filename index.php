@@ -1,4 +1,11 @@
-<?php get_header(); ?>
+<?php
+/**
+ * Index template
+ *
+ * @package simple-theme
+ */
+
+get_header(); ?>
 	<div class="container">
 		<h1 class="title"><?php bloginfo( 'name' ); ?></h1>
 		<?php if ( have_posts() ) : ?>
