@@ -44,3 +44,10 @@ a {
 .page-numbers li {
 	display: inline-block;
 }
+
+pre {
+	overflow-x: scroll;
+	font-size: 12px;
+	padding: 10px;
+	background-color: #f4f4f4;
+}
